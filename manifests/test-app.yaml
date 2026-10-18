@@ -24,8 +24,8 @@ spec:
           - "echo 'Starting application...'; sleep 10; echo 'java.lang.OutOfMemoryError: Java heap space'; exit 1"
         resources:
           requests:
-            memory: "64Mi"
+            memory: "256Mi"
             cpu: "100m"
           limits:
-            memory: "64Mi" # Purposely small memory limit
+            memory: "256Mi" # Purposely small memory limit
             cpu: "100m"
