@@ -29,3 +29,5 @@ spec:
           limits:
             memory: "64Mi" # Purposely small memory limit
             cpu: "100m"
+
+# Auto-updated by self-healing controller: Increase memory limit by 256Mi
